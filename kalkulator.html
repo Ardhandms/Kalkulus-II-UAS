@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kalkulator Perkalian Skalar dan Cross Product</title>
+    <link href="./source/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="judul1">
+	        <h1>Kalkulator Cross Product</h1>
+        </div>
+
+        <div class="isi1">
+            <label>Masukkan vektor pertama</label>
+            <input id="vector1"><br>
+        </div>
+
+        <div class="isi2">
+	        <label>Masukkan vektor kedua</label>
+	        <input id="vector2"><br>
+        </div>
+
+	    <button onclick="crossProduct()">Hitung Cross Product</button><br>
+        <button class="reset" onclick="reset()">Reset</button>
+
+        <div class="hasil1">
+            <label for="result">Hasil:</label>
+            <input type="text" id="result" readonly>
+        </div>
+        <p class="keterangan1">
+            *jika hanya ingin menulis "i, j, k" saja, maka harus menyertakan angka 1 didepannya
+        </p>
+	</div>
+
+    <div class="button-home">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="biodata1">
+        <p>Ulangan Akhir Semester Kalkulus II</p>
+        <p>----------------------------------</p>
+        <p>Ardhan Dimas Nuryadin (227006025)</p>
+        <p>Khilfi M Zaky (227006024)</p>
+        <P>Kelas A</P>
+    </div>
+	<script src="./source/script.js"></script>
+</body>
+</html>
